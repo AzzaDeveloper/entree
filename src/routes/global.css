@@ -3,13 +3,14 @@
 :root {
 	--accent-black: #140f0d;
 	--accent-white: #faf6f4;
-	--accent-darkorange: #ff5C00;
+	--accent-brightorange: #ff5c00;
 	--accent-orange: #ff7b17;
-	--accent-lightorange: #ffbd61;
+	--accent-butterscotch: #ffbd61;
+	--accent-lightpeach: #ffe7c6;
 	--accent-red: #e85454;
 
 	--small-font-size: 12px;
-    --base-font-size: 16px;
+	--base-font-size: 16px;
 	--large-font-size: 32px;
 }
 
@@ -18,9 +19,10 @@ html {
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 .btn {
