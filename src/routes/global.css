@@ -25,7 +25,9 @@ body {
 	overflow-x: hidden;
 }
 
+button,
 .btn {
+	transition: 0.1s;
 	cursor: pointer;
 }
 
