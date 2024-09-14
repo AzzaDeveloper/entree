@@ -3,8 +3,9 @@
 :root {
 	--accent-black: #140f0d;
 	--accent-white: #faf6f4;
+	--accent-darkorange: #ff5C00;
 	--accent-orange: #ff7b17;
-	--acent-lightorange: #ffbd61;
+	--accent-lightorange: #ffbd61;
 	--accent-red: #e85454;
 
 	--small-font-size: 12px;
