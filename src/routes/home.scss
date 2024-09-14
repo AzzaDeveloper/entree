@@ -1,0 +1,166 @@
+// Home page
+#home-page {
+	display: flex;
+	flex-direction: column;
+	gap: 5em;
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	p {
+		font-size: 1.8em;
+	}
+
+	// Signin section
+	#signin-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: transparent;
+		width: 100%;
+
+		* {
+			margin: 0;
+		}
+
+		.decor-rectangle-1,
+		.decor-rectangle-2 {
+			z-index: -1;
+			position: absolute;
+			background-color: var(--accent-brightorange);
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 50em;
+			transform-origin: bottom;
+			transform: rotate(-2.5deg) scaleX(1.5) translateY(-25%);
+		}
+
+		.decor-rectangle-2 {
+			background-color: var(--accent-lightpeach);
+			transform: rotate(-4.5deg) scaleX(1.7) translateY(-20%);
+		}
+
+		// Signin section content
+		#signin-content {
+			display: flex;
+			flex-direction: column;
+			margin: 4em;
+			gap: 3em;
+
+			#signin-title {
+				margin: 0;
+				font-weight: 800;
+				color: var(--accent-white);
+			}
+
+			#signin-desc {
+				color: var(--accent-white);
+			}
+
+			// Signin button container
+			#signin-btn-container {
+				display: flex;
+				flex-direction: row;
+				gap: 2em;
+
+				.signin-btn {
+					padding: 1em 5em;
+					border-radius: 1em;
+					border: 2px solid var(--accent-white);
+					font-size: 1em;
+				}
+
+				.signup-btn {
+					color: var(--accent-brightorange);
+				}
+
+				.login-btn {
+					background-color: transparent;
+					color: var(--accent-white);
+				}
+
+				.signup-btn:hover {
+					background-color: var(--accent-lightpeach);
+					opacity: 0.6;
+				}
+
+				.login-btn:hover {
+					background-color: var(--accent-lightpeach);
+					opacity: 0.6;
+					color: var(--accent-brightorange);
+				}
+			}
+		}
+
+		// Signin image
+		#signin-img-container {
+			margin: 4em;
+			border-radius: 2em;
+			overflow: hidden;
+			background-color: var(--accent-white);
+			width: 35em;
+			height: 35em;
+
+			#signin-img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+// Intro container 1
+#intro-container-1 {
+	display: flex;
+	flex-direction: row;
+	// justify-content: space-between;
+	gap: 5em;
+	padding: 3em;
+
+	.decor-square-container {
+		position: relative;
+		width: 100%;
+		max-width: 45em;
+		height: 40em;
+
+		.decor-square {
+			z-index: -1;
+		}
+
+		.decor-square-1 {
+			position: absolute;
+			background-color: var(--accent-brightorange);
+			top: 0;
+			left: 0;
+			width: 40em;
+			height: 35em;
+			border-radius: 1.5em 5em 5em 1.5em;
+		}
+
+		.decor-square-2 {
+			position: absolute;
+			background-color: var(--accent-lightpeach);
+			bottom: 0;
+			right: 0;
+			width: 40em;
+			height: 35em;
+			border-radius: 5em 1.5em 1.5em 5em;
+		}
+	}
+
+	.intro-content {
+		display: flex;
+		flex-direction: column;
+		margin: 2em 2em 0 2em;
+		gap: 2em;
+		width: 100%;
+
+		.intro-title {
+			margin: 0;
+			font-weight: 600;
+			// width: auto;
+		}
+	}
+}
