@@ -1,5 +1,5 @@
 <div id="navbar" class="box-shadow">
-    <a href="/">
+    <a id="navbar-logo-container" href="/">
         <img id="navbar-logo" src="ENTREE-logo-landscape.png" alt="ENTREE logo" />
     </a>
 
@@ -30,9 +30,15 @@
         width: 100%;
     }
 
-	#navbar-logo {
-		height: 3em;
-	}
+    #navbar-logo-container {
+        display: flex;
+        height: 3em;
+    }
+
+    #navbar-logo {
+        height: 100%;
+        width: 100%;
+    }
 
     .navbar-btn {
         margin: 0 3em;
