@@ -19,7 +19,7 @@
 		justify-content: space-between;
 		align-items: center;
 		background-color: var(--accent-white);
-		padding: 1em 2em;
+		padding: 0.5em 2em;
 		top: 0;
 	}
 
@@ -31,7 +31,7 @@
     }
 
 	#navbar-logo {
-		height: 3.5em;
+		height: 3em;
 	}
 
     .navbar-btn {
@@ -44,6 +44,5 @@
 
     .navbar-btn:hover {
         opacity: 0.5;
-        transition: 0.2s;
     }
 </style>
