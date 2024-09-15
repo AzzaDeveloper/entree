@@ -44,16 +44,45 @@
 			<p class="intro-desc">
 				With Entree, lorem ispum dolar sit amet. Lorem ispum dolar sit amet Lorem ispum dolar sit
 				amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem
-				ispum dolar sit ametLorem ispum dolar sit amet
+				ispum dolar sit amet Lorem ispum dolar sit amet
 			</p>
 		</div>
 	</section>
 
-	<section id="desc-container-2"></section>
+	<!-- Intro section 2 -->
+	<section id="intro-container-2">
+		<div class="decor-square-container">
+			<div class="decor-square-1 decor-square" />
+			<div class="decor-square-2 decor-square" />
+			<div class="decor-square-3 decor-square" />
+			<div class="decor-square-4 decor-square" />
+			<div class="decor-square-5 decor-square" />
+		</div>
+		<div class="intro-content">
+			<h1 class="intro-title">Startups made more accessible than ever before.</h1>
+			<p class="intro-desc">
+				With Entre, lorem ispum dolar sit amet. Lorem ispum dolar sit amet Lorem ispum dolar sit
+				amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem
+				ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar
+				sit amet Lorem ispum dolar sit amet
+			</p>
+		</div>
+	</section>
 
-	<section id="invite-conatiner"></section>
+	<!-- Invite section -->
+	<section id="invite-container">
+		<div id="invite-content-container">
+			<h1 id="invite-title">What are you waiting for?</h1>
+		</div>
+		<div id="invite-btn-container">
+			<div id="invite-btn-background">
+				<div id="invite-btn-title-container">
+					<h1 id="invite-btn-title">Start now.</h1>
+				</div>
+				<div id="signup-btn-container">
+					<button class="signup-btn">Signup</button>
+				</div>
+			</div>
+		</div>
+	</section>
 </div>
-
-<style lang="scss">
-	
-</style>

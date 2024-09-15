@@ -2,7 +2,7 @@
 #home-page {
 	display: flex;
 	flex-direction: column;
-	gap: 5em;
+	gap: 20em;
 
 	h1 {
 		font-size: 3.5em;
@@ -74,22 +74,22 @@
 
 				.signup-btn {
 					color: var(--accent-brightorange);
+
+					&:hover {
+						background-color: var(--accent-lightpeach);
+						opacity: 0.7;
+					}
 				}
 
 				.login-btn {
 					background-color: transparent;
 					color: var(--accent-white);
-				}
 
-				.signup-btn:hover {
-					background-color: var(--accent-lightpeach);
-					opacity: 0.6;
-				}
-
-				.login-btn:hover {
-					background-color: var(--accent-lightpeach);
-					opacity: 0.6;
-					color: var(--accent-brightorange);
+					&:hover {
+						background-color: var(--accent-lightpeach);
+						opacity: 0.7;
+						color: var(--accent-brightorange);
+					}
 				}
 			}
 		}
@@ -161,6 +161,122 @@
 			margin: 0;
 			font-weight: 600;
 			// width: auto;
+		}
+	}
+}
+
+// Intro container 2
+#intro-container-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 5em;
+	padding: 4em 10em;
+	background-color: var(--accent-lightpeach);
+
+	.decor-square-container {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin: 0 2em;
+
+		.decor-square {
+			width: 10em;
+			height: 10em;
+			background-color: var(--accent-brightorange);
+			border-radius: 1.5em;
+		}
+
+		.decor-square-1 {
+			border-radius: 5em 1.5em 1.5em 5em;
+		}
+
+		.decor-square-5 {
+			border-radius: 1.5em 5em 5em 1.5em;
+		}
+	}
+
+	.intro-content {
+		display: flex;
+		flex-direction: column;
+
+		* {
+			text-align: center;
+		}
+
+		.intro-desc {
+			margin: 0 6em 3em 6em;
+		}
+	}
+}
+
+// Invite section
+#invite-container {
+	display: flex;
+	flex-direction: row;
+	height: 50em;
+	// gap: 5em;
+	// padding: 4em 10em;
+
+	#invite-content-container {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+
+		#invite-title {
+			margin: 0 1em;
+		}
+	}
+
+	#invite-btn-container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+
+		#invite-btn-background {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			width: 25em;
+			padding: 0 10em;
+			border-radius: 4em 0 0 4em;
+			background-color: var(--accent-brightorange);
+
+			#invite-btn-title-container {
+				display: flex;
+				justify-content: center;
+				margin: 2em 0 1em 0;
+				height: 100%;
+
+				#invite-btn-title {
+					margin: 0;
+					color: var(--accent-white);
+				}
+			}
+
+			#signup-btn-container {
+				display: flex;
+				justify-content: center;
+				gap: 1em;
+				margin: 1em 0 3em 0;
+				height: 100%;
+
+				.signup-btn {
+					padding: 1em 5em;
+					border-radius: 1em;
+					border: 2px solid var(--accent-white);
+					color: var(--accent-brightorange);
+					font-size: 1em;
+
+					&:hover {
+						background-color: var(--accent-lightpeach);
+						opacity: 0.7;
+					}
+				}
+			}
 		}
 	}
 }
