@@ -1,6 +1,6 @@
 <div id="navbar" class="box-shadow">
     <a id="navbar-logo-container" href="/">
-        <img id="navbar-logo" src="ENTREE-logo-landscape.png" alt="ENTREE logo" />
+        <img id="navbar-logo" src="/ENTREE-logo-landscape.png" alt="ENTREE logo" />
     </a>
 
     <div id="navbar-btn-container">
