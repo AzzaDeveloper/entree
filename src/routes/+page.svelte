@@ -1,12 +1,8 @@
 <script>
-	import Navbar from '$lib/Navbar.svelte';
 	import './home.scss';
 </script>
 
 <title>ENTREE | Home</title>
-
-<!-- Navbar component -->
-<Navbar />
 
 <!-- Home page container -->
 <div id="home-page">
