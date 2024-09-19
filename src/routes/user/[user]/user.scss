@@ -1,0 +1,223 @@
+// Home page
+#user-page {
+	display: flex;
+	flex-direction: column;
+	gap: 15em;
+
+	h1 {
+		font-size: 3.5em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+	}
+
+	p {
+		font-size: 1.8em;
+	}
+
+	// Signin section
+	#avatar-section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		background-color: transparent;
+		width: 100%;
+
+		* {
+			margin: 0;
+		}
+
+		.decor-rectangle-1,
+		.decor-rectangle-2 {
+			z-index: -1;
+			position: absolute;
+			background-color: var(--accent-brightorange);
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 35em;
+			transform-origin: bottom;
+			transform: rotate(-2.5deg) scaleX(1.5) translateY(-25%);
+		}
+
+		.decor-rectangle-2 {
+			background-color: var(--accent-lightpeach);
+			transform: rotate(-4.5deg) scaleX(1.7) translateY(-20%);
+		}
+
+		// Signin section content
+		#avatar-content {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin: 0em;
+			gap: 0em;
+
+			#avatar-name {
+				margin: 0;
+				font-weight: 800;
+				color: var(--accent-white);
+			}
+
+			#avatar-age {
+				margin: 0 0.5em;
+				color: var(--accent-white);
+			}
+
+			#avatar-title-container {
+				display: flex;
+				flex-direction: row;
+				margin: 1em 0.5em;
+				gap: 1em;
+
+				#avatar-title-background {
+					background-color: var(--accent-lightpeach);
+					padding: 0.2em 1em;
+					border-radius: 1em;
+
+					#avatar-title {
+						font-size: 1em;
+						margin: 0;
+						color: var(--accent-brightorange);
+						font-weight: 600;
+					}
+				}
+			}
+
+			#avatar-img-container {
+				margin: 4em 6em;
+				border-radius: 2em;
+				overflow: hidden;
+				background-color: var(--accent-white);
+				width: 16em;
+				height: 16em;
+
+				#avatar-img {
+					width: 100%;
+					// height: 100%;
+				}
+			}
+		}
+	}
+}
+
+// Intro container 1
+#bio-section {
+	display: flex;
+	flex-direction: row;
+	padding: 0 10em;
+	height: 30em;
+
+	#bio-about {
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+		width: 70%;
+		padding-right: 4em;
+		border-right: 0.1em solid var(--accent-brightorange);
+
+		#bio-about-title {
+			margin: 0;
+			font-weight: 600;
+		}
+
+		#bio-about-desc {
+			margin: 0;
+			font-size: 1.5em;
+		}
+	}
+
+	#bio-interests {
+		display: flex;
+		flex-direction: column;
+		gap: 2em;
+		width: 30%;
+		padding-left: 4em;
+		border-left: 0.1em solid var(--accent-brightorange);
+
+		#bio-interests-title {
+			margin: 0;
+			font-weight: 600;
+		}
+
+		#bio-interests-container {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 1em;
+			margin: 0;
+
+			#bio-interest-background {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 0.5em 1em;
+				background-color: var(--accent-lightpeach);
+				border-radius: 1em;
+
+				#bio-interest {
+					font-size: 1.5em;
+					margin: 0;
+					text-wrap: nowrap;
+				}
+			}
+		}
+	}
+}
+
+#projects-section {
+	padding: 4em 10em;
+	background-color: var(--accent-lightpeach);
+
+	#projects-title {
+		font-size: 3em;
+		margin-bottom: 2em;
+		text-align: center;
+		color: var(--accent-brightorange);
+	}
+
+	#projects-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		gap: 2em;
+		justify-items: center;
+	}
+
+	.project-card {
+		background-color: var(--accent-white);
+		border-radius: 1em;
+		padding: 1em;
+		text-align: center;
+		width: 25em;
+		height: 40em;
+		transition:
+			transform 0.2s,
+			box-shadow 0.2s;
+
+		&:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+		}
+
+		.project-thumbnail {
+			width: 100%;
+			height: 25em;
+			border-radius: 0.5em;
+		}
+
+		.project-title {
+			font-size: 1.5em;
+			margin-top: 1em;
+			color: var(--accent-brightorange);
+		}
+
+		.project-description {
+			font-size: 1.2em;
+			color: var(--accent-gray);
+			overflow-y: auto;
+			height: 7em;
+		}
+	}
+}

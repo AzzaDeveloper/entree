@@ -14,6 +14,19 @@
 	--large-font-size: 32px;
 }
 
+::-webkit-scrollbar {
+	cursor: pointer;
+	width: 1.1rem;
+}
+
+::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background-clip: padding-box;
+	background-color: var(--accent-lightgrey);
+	border: 4px solid transparent;
+	border-radius: 8px;
+}
+
 html {
 	transition: 0.2s;
 }
