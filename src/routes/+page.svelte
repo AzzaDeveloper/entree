@@ -38,9 +38,11 @@
 		<div class="intro-content">
 			<h1 class="intro-title">Find what matters to you. Fast.</h1>
 			<p class="intro-desc">
-				With Entree, lorem ispum dolar sit amet. Lorem ispum dolar sit amet Lorem ispum dolar sit
-				amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem
-				ispum dolar sit amet Lorem ispum dolar sit amet
+				In a world of endless possibilities, time is everything. At <b
+					style="color: var(--accent-brightorange);">ENTREE</b
+				>, we simplify your journey by bringing what matters most to the forefront. Whether you're
+				looking for the right tools, partners, or opportunities, we've created an ecosystem that
+				helps you discover and act on the things that truly matter, without the hassle.
 			</p>
 		</div>
 	</section>
@@ -57,10 +59,11 @@
 		<div class="intro-content">
 			<h1 class="intro-title">Startups made more accessible than ever before.</h1>
 			<p class="intro-desc">
-				With Entre, lorem ispum dolar sit amet. Lorem ispum dolar sit amet Lorem ispum dolar sit
-				amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem
-				ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar
-				sit amet Lorem ispum dolar sit amet
+				Entrepreneurship should be within everyone's reach. With <b
+					style="color: var(--accent-brightorange);">ENTREE</b
+				>, we've leveled the playing field by offering streamlined resources, guidance, and
+				community support. Whether you're just starting out or scaling up, we provide everything you
+				need to bring your startup to life, faster and easier than ever before.
 			</p>
 		</div>
 	</section>
