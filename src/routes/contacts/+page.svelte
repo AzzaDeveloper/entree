@@ -1,5 +1,15 @@
 <script>
 	import './contacts.scss';
+	import { faqs as faqData } from './faqs.js';
+
+	let faqs = faqData.map((faq) => ({ ...faq, open: false }));
+
+	function toggleFAQ(index) {
+		faqs = faqs.map((faq, i) => ({
+			...faq,
+			open: i === index ? !faq.open : false
+		}));
+	}
 </script>
 
 <title>ENTREE | Contacts</title>
@@ -25,64 +35,104 @@
 		<div id="about-img-section">
 			<div id="about-img-container">
 				<div id="about-img-background-1">
-					<img src="https://picsum.photos/700/700" alt="" class="about-img" />
+					<img src="https://picsum.photos/700/700" alt="" class="about-img box-shadow" />
 				</div>
 				<div id="about-img-background-2">
-					<img src="https://picsum.photos/750/750" alt="" class="about-img" />
+					<img src="https://picsum.photos/750/750" alt="" class="about-img box-shadow" />
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<!-- Intro section 1 -->
-	<section id="contact-us-container">
-		<div class="decor-square-container">
-			<div class="decor-square-1 decor-square" />
-			<div class="decor-square-2 decor-square" />
-		</div>
-
-		<div class="intro-content">
-			<h1 class="intro-title">Find what matters to you. Fast.</h1>
-			<p class="intro-desc">
-				With Entree, lorem ispum dolar sit amet. Lorem ispum dolar sit amet Lorem ispum dolar sit
-				amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem
-				ispum dolar sit amet Lorem ispum dolar sit amet
-			</p>
-		</div>
-	</section>
-
-	<!-- Intro section 2 -->
-	<section id="intro-container-2">
-		<div class="decor-square-container">
-			<div class="decor-square-1 decor-square" />
-			<div class="decor-square-2 decor-square" />
-			<div class="decor-square-3 decor-square" />
-			<div class="decor-square-4 decor-square" />
-			<div class="decor-square-5 decor-square" />
-		</div>
-		<div class="intro-content">
-			<h1 class="intro-title">Startups made more accessible than ever before.</h1>
-			<p class="intro-desc">
-				With Entre, lorem ispum dolar sit amet. Lorem ispum dolar sit amet Lorem ispum dolar sit
-				amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem
-				ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar sit amet Lorem ispum dolar
-				sit amet Lorem ispum dolar sit amet
-			</p>
-		</div>
-	</section>
-
-	<!-- Invite section -->
-	<section id="invite-container">
-		<div id="invite-content-container">
-			<h1 id="invite-title">What are you waiting for?</h1>
-		</div>
-		<div id="invite-btn-container">
-			<div id="invite-btn-background">
-				<div id="invite-btn-title-container">
-					<h1 id="invite-btn-title">Start now.</h1>
+	<!-- Contact section -->
+	<section id="contact-section">
+		<div id="contact-form-container">
+			<div id="contact-form-title" class="box-shadow">
+				<h2>Contact Us</h2>
+			</div>
+			<form>
+				<div class="input-row">
+					<div class="input-container">
+						<label for="first-name">First Name <b class="required-star">*</b></label>
+						<input class="box-shadow" name="first-name" type="text" placeholder="John" required />
+					</div>
+					<div class="input-container">
+						<label for="last-name">Last Name <b class="required-star">*</b></label>
+						<input class="box-shadow" name="last-name" type="text" placeholder="Doe" required />
+					</div>
 				</div>
-				<div id="signup-btn-container">
-					<button class="signup-btn">Signup</button>
+
+				<div class="input-row">
+					<div class="input-container">
+						<label for="email">Email <b class="required-star">*</b></label>
+						<input
+							class="box-shadow"
+							name="email"
+							type="email"
+							placeholder="johndoe@example.com"
+							required
+						/>
+					</div>
+					<div class="input-container">
+						<label for="phone">Phone</label>
+						<input class="box-shadow" name="phone" type="tel" placeholder="123-456-7890" />
+					</div>
+				</div>
+
+				<label for="message">Message <b class="required-star">*</b></label>
+				<div class="textarea-container box-shadow">
+					<textarea name="message" placeholder="Type Your Message Here..."></textarea>
+				</div>
+				<button class="box-shadow" type="submit">Send Message</button>
+			</form>
+
+			<!-- Address container -->
+			<div id="address-container" class="box-shadow">
+				<h2>Address</h2>
+				<p>
+					Whether you need assistance or have any questions, feel free to reach out.<br /><br />
+					<b>Location:</b> 4517 Washington Ave, Manchester, Kentucky 39495<br />
+					<b>Phone:</b> +1 8854-476456<br />
+					<b>Email:</b> support@entree.com
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- FAQ section -->
+	<section id="faq-section">
+		<div id="faq-header">
+			<h1>Frequently Asked Questions</h1>
+		</div>
+
+		<div id="faq-content">
+			<div id="faq-img-container">
+				<div id="faq-img-background">
+					<img src="https://picsum.photos/700/700" alt="" class="faq-img box-shadow" />
+				</div>
+			</div>
+
+			<div id="faq-items-container">
+				<div id="faq-items">
+					{#each faqs as faq, index}
+						<div class="faq-item {faq.open ? 'open' : ''}">
+							<div
+								tabindex="0"
+								role="button"
+								class="faq-question"
+								on:click={() => toggleFAQ(index)}
+							>
+								<h3>{faq.question}</h3>
+								<span>{faq.open ? '-' : '+'}</span>
+							</div>
+							<div
+								class="faq-answer {faq.open ? 'visible' : ''}"
+								style="max-height: {faq.open ? '200px' : '0'};"
+							>
+								<p>{faq.answer}</p>
+							</div>
+						</div>
+					{/each}
 				</div>
 			</div>
 		</div>
