@@ -12,26 +12,32 @@ const users = [
 		projects: [
 			{
 				image: '',
-				title: 'Smart Home Automation System',
+				title: 'Home Automation System with Raspberry Pi',
 				description:
-					'A project using Raspberry Pi to automate home appliances, including lighting and security systems, controllable via a mobile app.'
+					'A smart home automation system built using Raspberry Pi, allowing users to control lighting, security cameras, and temperature sensors remotely through a web or mobile app. The system is designed to be expandable, letting users add more devices and customize their home automation experience.'
 			},
 			{
 				image: '',
-				title: 'AI-powered Personal Assistant',
+				title: 'AI-Driven Predictive Maintenance for IoT Devices',
 				description:
-					'A voice-controlled personal assistant built using natural language processing, integrated with IoT devices for hands-free control of household items.'
+					'A predictive maintenance system leveraging AI and IoT sensors to monitor industrial equipment in real-time. The system predicts potential failures by analyzing data patterns from sensors and provides alerts to prevent downtime and costly repairs.'
+			},
+			{
+				image: '',
+				title: 'Cross-Platform App for Monitoring IoT Devices',
+				description:
+					'A cross-platform application developed with .NET and JavaScript that allows users to monitor and control IoT devices remotely. The app supports multiple IoT protocols and integrates seamlessly with Raspberry Pi and Arduino-based systems for home and industrial use.'
 			}
 		]
 	},
 	{
 		username: 'Johnny Nguyen',
-		avatar: '/Johnny_Nguyen.png',
+		avatar: '/Johnny_Nguyen.webp',
 		title: ['Front-end Developer at ENTREE', 'UI/UX Enthusiast'],
 		age: '18',
 		about:
 			'Johnny Nguyen is a creative and meticulous front-end developer at ENTREE, with a knack for crafting beautiful and responsive user interfaces. His keen eye for design ensures that every element on the page feels intuitive and engaging. Outside of work, Johnny enjoys exploring new front-end frameworks and building sleek web applications in his spare time.',
-		interests: ['UI/UX Design', 'React', 'CSS Art', 'Web Animation', 'Graphic Design'],
+		interests: ['UI/UX', 'Svelte', 'SvelteKit', 'JavaScript', 'SCSS', 'Progressive Web Apps'],
 		projects: [
 			{
 				image: '',
@@ -44,6 +50,12 @@ const users = [
 				title: 'Interactive UI Design System',
 				description:
 					'A library of reusable UI components designed for responsive web applications, with an emphasis on clean design and smooth animations.'
+			},
+			{
+				image: '',
+				title: 'PWA for Genshin Impact In-game Statistics',
+				description:
+					'A Progressive Web App that allows Genshin Impact players to log in and sync their in-game stats with the app. Users can track character progress, weapon upgrades, artifact builds, and achievements, all in one place. The PWA provides real-time updates on in-game events, with offline access to previously synced data and push notifications for time-sensitive tasks like daily commissions and limited-time events.'
 			}
 		]
 	},
@@ -51,7 +63,7 @@ const users = [
 		username: 'Aung Su Pyae',
 		avatar: '/Aung_Su_Pyae.png',
 		title: ['Data Scientist at ENTREE', 'Machine Learning Expert'],
-		age: '31',
+		age: '19',
 		about:
 			'Aung Su Pyae is a data wizard at ENTREE, skilled in transforming raw data into actionable insights using machine learning models. His analytical mind and deep understanding of AI help ENTREE make data-driven decisions. Outside of work, Aung enjoys working on personal projects involving AI in healthcare and smart systems.',
 		interests: [
@@ -95,7 +107,25 @@ const users = [
 				image: '',
 				title: 'Music Streaming App for Independent Artists',
 				description:
-					'A mobile app that allows independent musicians to upload and share their music, helping them reach a broader audience without relying on major platforms. A mobile app that allows independent musicians to upload and share their music, helping them reach a broader audience without relying on major platforms. A mobile app that allows independent musicians to upload and share their music, helping them reach a broader audience without relying on major platforms.'
+					'A mobile app that allows independent musicians to upload and share their music, helping them reach a broader audience without relying on major platforms. Musicians can engage with fans, track performance metrics, and manage their content, all within a user-friendly interface designed to promote independence in the music industry.'
+			},
+			{
+				image: '',
+				title: 'AI-powered E-commerce Recommendation Engine',
+				description:
+					'An AI engine that helps online retailers recommend products based on user behavior and preferences. By analyzing large datasets, it personalizes the shopping experience for each customer and boosts sales conversion rates. The platform has successfully increased customer engagement and improved business outcomes for numerous retail partners.'
+			},
+			{
+				image: '',
+				title: 'Smart Health Monitoring System',
+				description:
+					'A system using IoT and AI to track health metrics in real time, alerting users and healthcare providers to potential issues before they become serious. This technology is designed to enhance patient care and improve health outcomes by detecting irregularities in data patterns, such as heart rate and blood pressure.'
+			},
+			{
+				image: '',
+				title: 'Decentralized Data Storage Solution',
+				description:
+					'A blockchain-based platform that allows individuals and organizations to securely store and access data without relying on centralized cloud providers. This decentralized approach ensures that users have greater control over their data, with enhanced privacy and security features built in by default.'
 			}
 		]
 	},
@@ -103,7 +133,7 @@ const users = [
 		username: 'Nhat Nguyen',
 		avatar: '/Nhat_Nguyen.png',
 		title: ['Back-end Developer at ENTREE', 'Database Guru'],
-		age: '27',
+		age: '18',
 		about:
 			"Nhat Nguyen is a talented back-end developer at ENTREE, known for building scalable server-side applications and maintaining efficient databases. His expertise lies in API development and database management, ensuring seamless communication between servers and front-end systems. When he's not coding, Nhat enjoys deep dives into the world of cloud computing and microservices.",
 		interests: [
@@ -130,9 +160,9 @@ const users = [
 	},
 	{
 		username: 'Zyle Estacion',
-		avatar: '/Zyle_Estacion.jpg',
+		avatar: '/Zyle_Estacion.png',
 		title: ['Cybersecurity Expert at ENTREE', 'Ethical Hacker'],
-		age: '29',
+		age: '20',
 		about:
 			"Zyle Estacion is ENTREE’s go-to cybersecurity expert, ensuring that the company's systems are impenetrable. With an impressive background in ethical hacking, Zyle thrives on staying one step ahead of cyber threats. In his downtime, you’ll find him participating in online capture-the-flag competitions or experimenting with secure blockchain protocols.",
 		interests: [
