@@ -159,6 +159,9 @@ const users = [
 	}
 ];
 
+const functions = { getUser, getUserList };
+
+
 /**
  * Find a match if the string exactly matches any usernames.
  *
@@ -180,4 +183,18 @@ function getUser(name) {
 	return data;
 }
 
-export default getUser;
+/**
+ * Get the list of users.
+ * 
+ * @returns {array} The list of users
+ * @example const userList = getUserList();
+ * @see getUser
+ * 
+ * @author Cyfer
+ */
+
+function getUserList() {
+	return users;
+}
+
+export default functions;
