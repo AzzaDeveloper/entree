@@ -46,55 +46,57 @@
 
 	<!-- Contact section -->
 	<section id="contact-section">
-		<div id="contact-form-container">
-			<div id="contact-form-title" class="box-shadow">
-				<h2>Contact Us</h2>
-			</div>
-			<form>
-				<div class="input-row">
-					<div class="input-container">
-						<label for="first-name">First Name <b class="required-star">*</b></label>
-						<input class="box-shadow" name="first-name" type="text" placeholder="John" required />
-					</div>
-					<div class="input-container">
-						<label for="last-name">Last Name <b class="required-star">*</b></label>
-						<input class="box-shadow" name="last-name" type="text" placeholder="Doe" required />
-					</div>
+		<div id="contact-form-wrapper">
+			<div id="contact-form-container">
+				<div id="contact-form-title" class="box-shadow">
+					<h2>Contact Us</h2>
 				</div>
-
-				<div class="input-row">
-					<div class="input-container">
-						<label for="email">Email <b class="required-star">*</b></label>
-						<input
-							class="box-shadow"
-							name="email"
-							type="email"
-							placeholder="johndoe@example.com"
-							required
-						/>
+				<form>
+					<div class="input-row">
+						<div class="input-container">
+							<label for="first-name">First Name <b class="required-star">*</b></label>
+							<input class="box-shadow" name="first-name" type="text" placeholder="John" required />
+						</div>
+						<div class="input-container">
+							<label for="last-name">Last Name <b class="required-star">*</b></label>
+							<input class="box-shadow" name="last-name" type="text" placeholder="Doe" required />
+						</div>
 					</div>
-					<div class="input-container">
-						<label for="phone">Phone</label>
-						<input class="box-shadow" name="phone" type="tel" placeholder="123-456-7890" />
+
+					<div class="input-row">
+						<div class="input-container">
+							<label for="email">Email <b class="required-star">*</b></label>
+							<input
+								class="box-shadow"
+								name="email"
+								type="email"
+								placeholder="johndoe@example.com"
+								required
+							/>
+						</div>
+						<div class="input-container">
+							<label for="phone">Phone</label>
+							<input class="box-shadow" name="phone" type="tel" placeholder="123-456-7890" />
+						</div>
 					</div>
-				</div>
 
-				<label for="message">Message <b class="required-star">*</b></label>
-				<div class="textarea-container box-shadow">
-					<textarea name="message" placeholder="Type Your Message Here..."></textarea>
-				</div>
-				<button class="box-shadow" type="submit">Send Message</button>
-			</form>
+					<label for="message">Message <b class="required-star">*</b></label>
+					<div class="textarea-container box-shadow">
+						<textarea name="message" placeholder="Type Your Message Here..."></textarea>
+					</div>
+					<button class="box-shadow" type="submit">Send Message</button>
+				</form>
 
-			<!-- Address container -->
-			<div id="address-container" class="box-shadow">
-				<h2>Address</h2>
-				<p>
-					Whether you need assistance or have any questions, feel free to reach out.<br /><br />
-					<b>Location:</b> 4517 Washington Ave, Manchester, Kentucky 39495<br />
-					<b>Phone:</b> +1 8854-476456<br />
-					<b>Email:</b> support@entree.com
-				</p>
+				<!-- Address container -->
+				<div id="address-container" class="box-shadow">
+					<h2>Address</h2>
+					<p>
+						Whether you need assistance or have any questions, feel free to reach out.<br /><br />
+						<b>Location:</b> 4517 Washington Ave, Manchester, Kentucky 39495<br />
+						<b>Phone:</b> +1 8854-476456<br />
+						<b>Email:</b> support@entree.com
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
