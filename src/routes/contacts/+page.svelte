@@ -116,6 +116,7 @@
 				<div id="faq-items">
 					{#each faqs as faq, index}
 						<div class="faq-item {faq.open ? 'open' : ''}">
+							<!-- svelte-ignore a11y-click-events-have-key-events -->
 							<div
 								tabindex="0"
 								role="button"
