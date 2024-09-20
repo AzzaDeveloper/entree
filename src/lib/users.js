@@ -288,6 +288,387 @@ const users = [
 					'An online platform that educates employees on cybersecurity best practices and helps organizations protect against social engineering and phishing attacks.'
 			}
 		]
+	},
+	{
+		username: 'Amara Griffin',
+		avatar: '/Amara_Griffin.png',
+		title: ['Full-stack Developer', 'Python Enthusiast'],
+		age: '30',
+		about:
+			'Amara Griffin is a dedicated full-stack developer with expertise in both front-end and back-end technologies. She has a passion for Python and enjoys building robust, scalable applications.',
+		interests: ['Python', 'Django', 'React', 'API Development', 'Cloud Computing'],
+		projects: [
+			{
+				image: '',
+				title: 'E-commerce Platform with Django',
+				description:
+					'A full-fledged e-commerce platform developed using Django for the backend and React for the front-end. The platform includes user authentication, product management, and a secure checkout process.'
+			},
+			{
+				image: '',
+				title: 'Real-time Weather Forecast App',
+				description:
+					'A weather forecast app built using Django and integrated with a public weather API to provide real-time data for cities worldwide.'
+			},
+			{
+				image: '',
+				title: 'Personal Blog Website',
+				description:
+					'A responsive blog website developed with Django and React, allowing users to publish, edit, and comment on blog posts.'
+			},
+			{
+				image: '',
+				title: 'Cloud-based File Storage System',
+				description:
+					'A cloud-based file storage system that allows users to securely upload, store, and share files with others.'
+			},
+			{
+				image: '',
+				title: 'AI Chatbot for Customer Support',
+				description:
+					'An AI chatbot built with Python and integrated into customer support systems to automate responses and improve user experience.'
+			}
+		]
+	},
+	{
+		username: 'Dylan Carter',
+		avatar: '/Dylan_Carter.png',
+		title: ['Front-end Developer', 'UI/UX Specialist'],
+		age: '28',
+		about:
+			'Dylan Carter is a front-end developer specializing in creating visually appealing and user-friendly interfaces. He has a keen eye for design and focuses on improving user experience through intuitive layouts.',
+		interests: ['UI/UX Design', 'JavaScript', 'Figma', 'CSS', 'React'],
+		projects: [
+			{
+				image: '',
+				title: 'Portfolio Website with Custom Animations',
+				description:
+					'A portfolio website designed to showcase personal projects, featuring custom animations and transitions for a visually engaging experience.'
+			},
+			{
+				image: '',
+				title: 'Interactive Landing Page for Startups',
+				description:
+					'A sleek and modern landing page designed for startups, optimized for lead generation and conversion, with fully responsive design.'
+			},
+			{
+				image: '',
+				title: 'Online Design Tool with Drag-and-Drop',
+				description:
+					'A web-based design tool that allows users to create and customize digital designs using drag-and-drop functionality.'
+			},
+			{
+				image: '',
+				title: 'UI Components Library for Web Apps',
+				description:
+					'A reusable UI components library developed for front-end applications, providing easy-to-use elements such as buttons, cards, and forms.'
+			},
+			{
+				image: '',
+				title: 'Mobile App Interface for E-learning Platform',
+				description:
+					'A mobile app interface for an e-learning platform, focusing on ease of use and accessibility for students and teachers.'
+			}
+		]
+	},
+	{
+		username: 'Sophia Reed',
+		avatar: '/Sophia_Reed.png',
+		title: ['Data Scientist', 'AI Researcher'],
+		age: '32',
+		about:
+			'Sophia Reed is a data scientist with a strong background in artificial intelligence and machine learning. She works on cutting-edge AI research and applies advanced data analysis techniques to solve complex problems.',
+		interests: ['Data Science', 'Machine Learning', 'AI Research', 'Python', 'TensorFlow'],
+		projects: [
+			{
+				image: '',
+				title: 'AI Model for Predicting Stock Prices',
+				description:
+					'An AI model built with Python and TensorFlow to predict stock prices based on historical data and market trends.'
+			},
+			{
+				image: '',
+				title: 'Deep Learning for Image Classification',
+				description:
+					'A deep learning project that uses convolutional neural networks (CNNs) to classify images into different categories with high accuracy.'
+			},
+			{
+				image: '',
+				title: 'Data Pipeline for Processing Large Datasets',
+				description:
+					'A scalable data pipeline developed to process and clean large datasets in real-time, ensuring data integrity and accuracy.'
+			},
+			{
+				image: '',
+				title: 'Machine Learning Model for Sentiment Analysis',
+				description:
+					'A machine learning model that analyzes customer reviews to detect sentiment, helping businesses understand user feedback.'
+			},
+			{
+				image: '',
+				title: 'AI-powered Healthcare Diagnostics Tool',
+				description:
+					'An AI-powered tool that assists doctors by providing diagnostic recommendations based on patient symptoms and medical history.'
+			},
+			{
+				image: '',
+				title: 'Real-time Recommendation System',
+				description:
+					'A recommendation system that uses machine learning to provide personalized content recommendations to users in real-time.'
+			}
+		]
+	},
+	{
+		username: 'Ethan Matthews',
+		avatar: '/Ethan_Matthews.png',
+		title: ['DevOps Engineer', 'Cloud Specialist'],
+		age: '29',
+		about:
+			'Ethan Matthews is a skilled DevOps engineer specializing in cloud infrastructure and continuous integration/continuous delivery (CI/CD) pipelines. He has extensive experience with automating deployments and optimizing cloud environments.',
+		interests: ['DevOps', 'CI/CD', 'AWS', 'Docker', 'Kubernetes'],
+		projects: [
+			{
+				image: '',
+				title: 'CI/CD Pipeline for Microservices',
+				description:
+					'A fully automated CI/CD pipeline developed for a microservices architecture, enabling fast and reliable deployments.'
+			},
+			{
+				image: '',
+				title: 'Cloud Infrastructure Setup with AWS',
+				description:
+					'An AWS-based cloud infrastructure setup for hosting web applications, including auto-scaling, load balancing, and database integration.'
+			},
+			{
+				image: '',
+				title: 'Docker Containerization for Web Applications',
+				description:
+					'A project that containerizes web applications using Docker, improving portability and ensuring consistent environments across development and production.'
+			},
+			{
+				image: '',
+				title: 'Kubernetes Cluster for Scaling Applications',
+				description:
+					'A Kubernetes cluster deployed to scale applications horizontally, ensuring high availability and fault tolerance.'
+			},
+			{
+				image: '',
+				title: 'Automated Testing with Jenkins',
+				description:
+					'An automated testing pipeline built using Jenkins to run unit tests, integration tests, and end-to-end tests as part of the CI/CD process.'
+			}
+		]
+	},
+	{
+		username: 'Liam Evans',
+		avatar: '/Liam_Evans.png',
+		title: ['Backend Developer', 'Node.js Expert'],
+		age: '35',
+		about:
+			'Liam Evans is an experienced backend developer specializing in Node.js and database management. He builds scalable server-side applications and focuses on optimizing performance for high-traffic systems.',
+		interests: ['Node.js', 'API Development', 'Databases', 'Express.js', 'MongoDB'],
+		projects: [
+			{
+				image: '',
+				title: 'API for Real-time Data Streaming',
+				description:
+					'A real-time data streaming API built with Node.js, allowing applications to send and receive live updates with minimal latency.'
+			},
+			{
+				image: '',
+				title: 'Scalable Backend for Social Media Platform',
+				description:
+					'A backend system developed for a social media platform, handling user authentication, messaging, and media uploads at scale.'
+			},
+			{
+				image: '',
+				title: 'MongoDB-based Data Analytics Platform',
+				description:
+					'A data analytics platform powered by MongoDB, providing insights into user behavior through real-time analytics and visualizations.'
+			},
+			{
+				image: '',
+				title: 'REST API for E-commerce Platform',
+				description:
+					'A REST API built for an e-commerce platform, handling product listings, cart management, and order processing.'
+			},
+			{
+				image: '',
+				title: 'Microservices Architecture for Online Marketplace',
+				description:
+					'A microservices-based backend architecture developed for an online marketplace, ensuring fault tolerance and easy scalability.'
+			}
+		]
+	},
+	{
+		username: 'Olivia Bennett',
+		avatar: '/Olivia_Bennett.png',
+		title: ['Mobile App Developer', 'Swift Expert'],
+		age: '27',
+		about:
+			'Olivia Bennett is a mobile app developer specializing in iOS development with Swift. She focuses on creating smooth, user-friendly mobile experiences and enjoys experimenting with the latest iOS frameworks.',
+		interests: ['iOS Development', 'Swift', 'Mobile UX', 'ARKit', 'Core Data'],
+		projects: [
+			{
+				image: '',
+				title: 'Fitness Tracking App for iOS',
+				description:
+					'An iOS app developed to track fitness activities, including running, cycling, and swimming, with real-time statistics and progress tracking.'
+			},
+			{
+				image: '',
+				title: 'Augmented Reality (AR) Game',
+				description:
+					"An interactive AR game built using Apple's ARKit, allowing users to engage in immersive augmented reality experiences."
+			},
+			{
+				image: '',
+				title: 'Personal Finance App with Budget Tracking',
+				description:
+					'A personal finance app developed with Swift, featuring budget tracking, expense categorization, and savings goal setting.'
+			},
+			{
+				image: '',
+				title: 'E-learning Mobile App for iOS',
+				description:
+					'An e-learning platform designed for iOS devices, allowing users to access courses, track their progress, and receive notifications for upcoming lessons.'
+			},
+			{
+				image: '',
+				title: 'Recipe Management App with Offline Access',
+				description:
+					'A recipe management app that allows users to save, organize, and access their favorite recipes offline, developed using Core Data.'
+			}
+		]
+	},
+	{
+		username: 'Lucas White',
+		avatar: '/Lucas_White.png',
+		title: ['Cybersecurity Analyst', 'Penetration Tester'],
+		age: '31',
+		about:
+			'Lucas White is a cybersecurity analyst specializing in penetration testing and vulnerability assessments. He helps organizations identify security risks and mitigate potential threats through proactive security testing.',
+		interests: [
+			'Cybersecurity',
+			'Penetration Testing',
+			'Network Security',
+			'Cryptography',
+			'Ethical Hacking'
+		],
+		projects: [
+			{
+				image: '',
+				title: 'Network Penetration Testing Toolkit',
+				description:
+					'A custom toolkit for performing penetration tests on corporate networks, designed to identify and exploit vulnerabilities in real-world scenarios.'
+			},
+			{
+				image: '',
+				title: 'Cryptography-based Secure Communication Protocol',
+				description:
+					'A secure communication protocol built using advanced cryptography techniques, ensuring data integrity and privacy for sensitive communications.'
+			},
+			{
+				image: '',
+				title: 'Threat Detection System for Enterprise Networks',
+				description:
+					'A real-time threat detection system that monitors network traffic for suspicious activities, designed to prevent cyberattacks and data breaches.'
+			},
+			{
+				image: '',
+				title: 'Ethical Hacking Simulator for Training',
+				description:
+					'An ethical hacking simulation platform developed for cybersecurity training, allowing users to practice their hacking skills in a safe environment.'
+			},
+			{
+				image: '',
+				title: 'Vulnerability Assessment Tool for Web Applications',
+				description:
+					'A vulnerability assessment tool designed to scan web applications for common security flaws, providing detailed reports and mitigation suggestions.'
+			}
+		]
+	},
+	{
+		username: 'Isabella Cooper',
+		avatar: '/Isabella_Cooper.png',
+		title: ['Front-end Developer', 'React Enthusiast'],
+		age: '24',
+		about:
+			'Isabella Cooper is a front-end developer with a passion for building dynamic web applications using React. She enjoys creating interactive user interfaces and experimenting with the latest front-end technologies.',
+		interests: ['React', 'JavaScript', 'CSS', 'Web Accessibility', 'Responsive Design'],
+		projects: [
+			{
+				image: '',
+				title: 'Responsive E-commerce Website',
+				description:
+					'A responsive e-commerce website built with React, optimized for mobile and desktop, featuring real-time product filtering and a dynamic shopping cart.'
+			},
+			{
+				image: '',
+				title: 'Interactive Dashboard for Data Visualization',
+				description:
+					'A React-based interactive dashboard that visualizes data using charts and graphs, providing insights through user-friendly interactions.'
+			},
+			{
+				image: '',
+				title: 'Web Accessibility Checker',
+				description:
+					'A web accessibility checker developed using React, allowing developers to evaluate websites for compliance with accessibility standards.'
+			},
+			{
+				image: '',
+				title: 'Real-time Chat Application with WebSockets',
+				description:
+					'A real-time chat application developed with React and WebSockets, allowing users to send messages instantly and join chat rooms.'
+			},
+			{
+				image: '',
+				title: 'Interactive Quiz App',
+				description:
+					'An interactive quiz app built with React, featuring multiple-choice questions and real-time scoring with a responsive layout.'
+			}
+		]
+	},
+	{
+		username: 'Mia Taylor',
+		avatar: '/Mia_Taylor.png',
+		title: ['Data Analyst', 'SQL Specialist'],
+		age: '26',
+		about:
+			'Mia Taylor is a data analyst who specializes in extracting insights from large datasets. She has extensive experience with SQL and enjoys transforming raw data into actionable insights.',
+		interests: ['Data Analysis', 'SQL', 'Business Intelligence', 'Power BI', 'Data Visualization'],
+		projects: [
+			{
+				image: '',
+				title: 'Business Intelligence Dashboard',
+				description:
+					'A business intelligence dashboard that visualizes key performance indicators (KPIs) and metrics, helping businesses make data-driven decisions.'
+			},
+			{
+				image: '',
+				title: 'Automated SQL Query Builder',
+				description:
+					'An automated SQL query builder developed to help non-technical users generate SQL queries for data extraction without writing code.'
+			},
+			{
+				image: '',
+				title: 'Customer Churn Prediction Model',
+				description:
+					'A data analysis project focused on building a machine learning model to predict customer churn based on historical data.'
+			},
+			{
+				image: '',
+				title: 'Sales Performance Analysis Report',
+				description:
+					'A comprehensive sales performance report generated from transactional data, providing insights into sales trends, customer behavior, and product performance.'
+			},
+			{
+				image: '',
+				title: 'Financial Data Analysis and Forecasting',
+				description:
+					'A project that analyzes financial data to forecast future performance and trends, helping businesses optimize their financial strategies.'
+			}
+		]
 	}
 ];
 
