@@ -16,7 +16,7 @@
 		<!-- Signin content -->
 		<div id="avatar-content">
 			<div id="avatar-img-container" class="box-shadow">
-				<img src={data.avatar} alt={data.username} id="avatar-img" />
+				<img src={data.avatar || "/default.png"} alt={data.username} id="avatar-img" />
 			</div>
 
 			<div id="avatar-info">
@@ -64,7 +64,7 @@
 						alt={project.title}
 					/>
 					<h2 class="project-title">{project.title}</h2>
-					<p class="project-description">{project.description}</p>
+					<p class="project-description" tabindex="-1">{project.description}</p>
 				</div>
 			{/each}
 		</div>
