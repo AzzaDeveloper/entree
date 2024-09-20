@@ -1,5 +1,5 @@
 // User profiles
-// For the sake of simplicity, please avoid similar names so it can be fetched using a simple find() and match() method
+// For the sake of simplicity, please avoid similar names so it can be fetched using a simple find() method
 const users = [
 	{
 		username: 'John Peterson',
@@ -27,6 +27,18 @@ const users = [
 				title: 'Cross-Platform App for Monitoring IoT Devices',
 				description:
 					'A cross-platform application developed with .NET and JavaScript that allows users to monitor and control IoT devices remotely. The app supports multiple IoT protocols and integrates seamlessly with Raspberry Pi and Arduino-based systems for home and industrial use.'
+			},
+			{
+				image: '',
+				title: 'Smart Traffic Management System',
+				description:
+					'An IoT-based traffic management system that uses real-time data to control traffic lights and reduce congestion. The system optimizes traffic flow using AI algorithms and provides real-time traffic updates.'
+			},
+			{
+				image: '',
+				title: 'AI-powered Chatbot for Customer Support',
+				description:
+					'A chatbot built using AI to assist users with customer support queries. It can handle a wide range of requests, provide information, and escalate cases to human agents when necessary.'
 			}
 		]
 	},
@@ -53,9 +65,27 @@ const users = [
 			},
 			{
 				image: '',
+				title: 'E-commerce Website with Real-time Shopping Cart',
+				description:
+					'A fully responsive e-commerce website built with Svelte and JavaScript, featuring a real-time shopping cart and secure checkout process.'
+			},
+			{
+				image: '',
 				title: 'PWA for Genshin Impact In-game Statistics',
 				description:
 					'A Progressive Web App that allows Genshin Impact players to log in and sync their in-game stats with the app. Users can track character progress, weapon upgrades, artifact builds, and achievements, all in one place. The PWA provides real-time updates on in-game events, with offline access to previously synced data and push notifications for time-sensitive tasks like daily commissions and limited-time events.'
+			},
+			{
+				image: '',
+				title: 'CSS Grid Layout Builder',
+				description:
+					'An intuitive drag-and-drop grid layout builder developed using CSS Grid and JavaScript, enabling designers to quickly prototype responsive layouts.'
+			},
+			{
+				image: '',
+				title: 'Single-page Application for Travel Booking',
+				description:
+					'A smooth and fast single-page application for travel bookings, developed using SvelteKit with dynamic route handling and state management.'
 			}
 		]
 	},
@@ -85,6 +115,24 @@ const users = [
 				title: 'Predictive Maintenance System',
 				description:
 					'A machine learning model developed to predict machinery failure in industrial systems, improving maintenance schedules and reducing downtime.'
+			},
+			{
+				image: '',
+				title: 'Real-time Data Visualization Dashboard',
+				description:
+					'A web-based dashboard that visualizes data in real-time, providing interactive insights into data trends and patterns for decision-making.'
+			},
+			{
+				image: '',
+				title: 'AI-Powered Chatbot for Medical Consultations',
+				description:
+					'An AI chatbot that assists users by providing basic medical consultations, analyzing symptoms, and recommending whether to seek professional care.'
+			},
+			{
+				image: '',
+				title: 'Deep Learning for Medical Image Classification',
+				description:
+					'A deep learning model designed to classify medical images, helping doctors identify diseases like cancer from scans with high accuracy.'
 			}
 		]
 	},
@@ -107,25 +155,37 @@ const users = [
 				image: '',
 				title: 'Music Streaming App for Independent Artists',
 				description:
-					'A mobile app that allows independent musicians to upload and share their music, helping them reach a broader audience without relying on major platforms. Musicians can engage with fans, track performance metrics, and manage their content, all within a user-friendly interface designed to promote independence in the music industry.'
+					'A mobile app that allows independent musicians to upload and share their music, helping them reach a broader audience without relying on major platforms.'
 			},
 			{
 				image: '',
 				title: 'AI-powered E-commerce Recommendation Engine',
 				description:
-					'An AI engine that helps online retailers recommend products based on user behavior and preferences. By analyzing large datasets, it personalizes the shopping experience for each customer and boosts sales conversion rates. The platform has successfully increased customer engagement and improved business outcomes for numerous retail partners.'
+					'An AI engine that helps online retailers recommend products based on user behavior and preferences, boosting sales and customer engagement.'
 			},
 			{
 				image: '',
 				title: 'Smart Health Monitoring System',
 				description:
-					'A system using IoT and AI to track health metrics in real time, alerting users and healthcare providers to potential issues before they become serious. This technology is designed to enhance patient care and improve health outcomes by detecting irregularities in data patterns, such as heart rate and blood pressure.'
+					'A system using IoT and AI to track health metrics in real time, alerting users and healthcare providers to potential issues before they become serious.'
 			},
 			{
 				image: '',
 				title: 'Decentralized Data Storage Solution',
 				description:
-					'A blockchain-based platform that allows individuals and organizations to securely store and access data without relying on centralized cloud providers. This decentralized approach ensures that users have greater control over their data, with enhanced privacy and security features built in by default.'
+					'A blockchain-based platform that allows individuals and organizations to securely store and access data without relying on centralized cloud providers.'
+			},
+			{
+				image: '',
+				title: 'Virtual Music Collaboration Platform',
+				description:
+					'A platform that allows musicians from around the world to collaborate on music projects in real time, enabling seamless cross-border creativity.'
+			},
+			{
+				image: '',
+				title: 'AI-Powered Music Recommendation App',
+				description:
+					'A mobile app that recommends new music based on the user’s listening habits, leveraging machine learning to discover tracks that fit personal tastes.'
 			}
 		]
 	},
@@ -155,6 +215,24 @@ const users = [
 				title: 'API for Real-time Data Sync',
 				description:
 					'A RESTful API designed for real-time synchronization of data between mobile devices and cloud databases, ensuring data consistency across platforms.'
+			},
+			{
+				image: '',
+				title: 'Scalable Cloud-based Data Storage System',
+				description:
+					'A cloud-based data storage solution that scales automatically based on traffic and usage, providing high availability and security for enterprise data.'
+			},
+			{
+				image: '',
+				title: 'IoT Backend Infrastructure',
+				description:
+					'An IoT backend system that processes and manages data from thousands of devices in real-time, ensuring high throughput and reliability.'
+			},
+			{
+				image: '',
+				title: 'Database Optimization for High Traffic Systems',
+				description:
+					'A project focusing on optimizing database queries and architecture to handle high levels of traffic efficiently, minimizing response time and latency.'
 			}
 		]
 	},
@@ -184,6 +262,30 @@ const users = [
 				title: 'Penetration Testing Toolkit',
 				description:
 					'A comprehensive toolkit designed for penetration testers to simulate cyber-attacks and assess system vulnerabilities.'
+			},
+			{
+				image: '',
+				title: 'AI-Driven Intrusion Detection System',
+				description:
+					'An AI-based system that monitors network traffic in real-time to detect and prevent potential intrusions or suspicious activities.'
+			},
+			{
+				image: '',
+				title: 'Secure Communication Protocol for IoT Devices',
+				description:
+					'A custom communication protocol designed to ensure secure data transmission between IoT devices, minimizing the risk of interception or tampering.'
+			},
+			{
+				image: '',
+				title: 'Decentralized Identity Management System',
+				description:
+					'A blockchain-based identity management solution that ensures users can securely control and verify their identities without relying on central authorities.'
+			},
+			{
+				image: '',
+				title: 'Cybersecurity Awareness Training Platform',
+				description:
+					'An online platform that educates employees on cybersecurity best practices and helps organizations protect against social engineering and phishing attacks.'
 			}
 		]
 	}
