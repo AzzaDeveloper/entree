@@ -33,7 +33,7 @@ let ideas = [
         description:
             'A cloud storage service that uses encryption to protect user files and data from unauthorized access.',
         tags: ['Cryptography', 'Network Security'],
-        users: ['jane']
+        users: []
     },
     {
         title: 'Security Training Platform',
@@ -67,7 +67,7 @@ let ideas = [
         title: "Sustainable Packaging Solutions",
         description: "An eco-friendly packaging solution made from biodegradable materials, helping businesses reduce plastic waste and lower their environmental footprint.",
         tags: ["Sustainability", "Environment", "Packaging"],
-        users: ["eco-conscious brands", "manufacturers"]
+        users: []
     },
     {
         title: "Smart Home Energy Management",
@@ -85,7 +85,7 @@ let ideas = [
         title: "AI-Driven Marketing Platform",
         description: "A platform that uses AI to create personalized marketing campaigns by analyzing customer behavior and automating content creation for higher engagement.",
         tags: ["AI", "Marketing", "Automation"],
-        users: ["marketing teams", "brands"]
+        users: []
     },
     {
         title: "Online Learning Marketplace for Creative Skills",
@@ -103,7 +103,7 @@ let ideas = [
         title: "Local Farm-to-Table Delivery Service",
         description: "A platform that connects local farms with consumers for fresh produce delivery, promoting sustainable agriculture and supporting small farmers.",
         tags: ["Agriculture", "Sustainability", "Food Delivery"],
-        users: ["farmers", "consumers"]
+        users: []
     },
     {
         title: "Urban Mobility Subscription Service",
@@ -121,7 +121,7 @@ let ideas = [
         title: "Pet Health Monitoring Wearable",
         description: "A wearable device for pets that tracks health metrics like activity levels, heart rate, and sleep patterns, helping owners ensure their pets' well-being.",
         tags: ["Pets", "Wearable", "HealthTech"],
-        users: ["pet owners", "veterinarians"]
+        users: ["pet owners"]
     },
     {
         title: "Smart Waste Management System",
@@ -133,13 +133,13 @@ let ideas = [
         title: "Augmented Reality Home Design App",
         description: "An app that allows users to visualize interior design changes in their homes using augmented reality before making purchases or renovations.",
         tags: ["Augmented Reality", "Home Design", "Technology"],
-        users: ["homeowners", "interior designers"]
+        users: ["homeowners"]
     },
     {
         title: "Personal Finance Automation Tool",
         description: "A tool that automates personal finance management, helping users save, invest, and track spending through AI-driven budgeting recommendations.",
         tags: ["FinTech", "Automation", "Personal Finance"],
-        users: ["individuals", "financial advisors"]
+        users: ["individuals", "financial advisors", ]
     },
     {
         title: "Crowdsourced Urban Planning Platform",
@@ -157,13 +157,13 @@ let ideas = [
         title: "Virtual Reality Fitness Experience",
         description: "A virtual reality platform offering immersive fitness experiences, allowing users to exercise in virtual environments and gamify their workouts.",
         tags: ["Virtual Reality", "Fitness", "Wellness"],
-        users: ["fitness enthusiasts", "gyms"]
+        users: ["fitness enthusiasts", "gyms", "clients", "clients"]
     },
     {
         title: "On-Demand Beauty Service Marketplace",
         description: "A marketplace that connects beauty professionals with clients for at-home or on-location beauty services such as hairstyling, makeup, and nails.",
         tags: ["Marketplace", "Beauty", "On-Demand Services"],
-        users: ["beauty professionals", "clients"]
+        users: ["beauty professionals", "clients", "clients"]
     },
     {
         title: "Customizable Smart Furniture",
@@ -182,7 +182,68 @@ let ideas = [
         description: "A platform where users can rent designer and sustainable fashion items, promoting eco-conscious clothing consumption and reducing waste.",
         tags: ["Sustainability", "Fashion", "Rental"],
         users: ["fashion lovers", "eco-conscious consumers"]
+    },
+    {
+        "title": "Remote Team Collaboration Hub",
+        "description": "A platform that provides remote teams with tools for seamless collaboration, project management, and communication, optimized for distributed workforces.",
+        "tags": ["Remote Work", "Collaboration", "Productivity"],
+        "users": ["remote workers", "distributed teams"]
+    },
+    {
+        "title": "Personalized Nutrition Plan App",
+        "description": "An AI-powered app that creates personalized meal plans based on users' health data, goals, and preferences, helping individuals maintain a balanced and healthy diet.",
+        "tags": ["Nutrition", "Health", "AI"],
+        "users": ["health enthusiasts", "people with dietary restrictions"]
+    },
+    {
+        "title": "Local Artisanal Marketplace",
+        "description": "An online marketplace connecting local artisans with consumers, allowing buyers to discover and purchase unique, handmade products while supporting small businesses.",
+        "tags": ["Artisanal", "E-commerce", "Small Business"],
+        "users": ["art lovers", "small business supporters"]
+    },
+    {
+        "title": "Electric Bike Subscription Service",
+        "description": "A subscription-based service offering access to electric bikes for eco-friendly urban transportation, including maintenance and insurance for hassle-free riding.",
+        "tags": ["Sustainability", "Transportation", "Subscription"],
+        "users": ["commuters", "eco-conscious urban dwellers"]
+    },
+    {
+        "title": "Mental Wellness Journaling App",
+        "description": "A digital journaling app designed to promote mental well-being through guided prompts, mood tracking, and mindfulness exercises tailored to each user.",
+        "tags": ["Mental Health", "Wellness", "Journaling"],
+        "users": ["mental health advocates", "people seeking mindfulness"]
+    },
+    {
+        "title": "Pet Care Sharing Platform",
+        "description": "A peer-to-peer platform that connects pet owners with trusted local caregivers, offering short-term pet sitting, walking, and boarding services.",
+        "tags": ["Pets", "Sharing Economy", "Community"],
+        "users": ["pet owners", "animal lovers"]
+    },
+    {
+        "title": "VR Real Estate Tours",
+        "description": "A virtual reality platform that allows potential buyers and renters to take immersive 3D tours of properties from anywhere, reducing the need for in-person viewings.",
+        "tags": ["Real Estate", "VR", "Technology"],
+        "users": ["home buyers", "real estate agents"]
+    },
+    {
+        "title": "Sustainable Packaging Solutions",
+        "description": "A company that offers eco-friendly packaging alternatives for businesses, helping them reduce their environmental footprint while maintaining product quality.",
+        "tags": ["Sustainability", "Packaging", "B2B"],
+        "users": ["eco-conscious businesses", "e-commerce companies"]
+    },
+    {
+        "title": "AI-Powered Resume Builder",
+        "description": "An AI-driven platform that helps users create optimized resumes and cover letters tailored to specific job listings, enhancing their chances of landing interviews.",
+        "tags": ["Career", "AI", "Job Search"],
+        "users": ["job seekers", "students"]
+    },
+    {
+        "title": "Zero-Waste Grocery Delivery",
+        "description": "A grocery delivery service that uses reusable containers and focuses on zero-waste products, helping consumers reduce plastic use while shopping sustainably.",
+        "tags": ["Sustainability", "Grocery", "Zero Waste"],
+        "users": ["sustainability advocates", "eco-conscious families"]
     }
+    
 ]
 
 let functions = { getIdea, getIdeaList };
