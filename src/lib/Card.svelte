@@ -24,7 +24,7 @@
 		align-items: center;
 		color: var(--accent-black);
 		text-decoration: none;
-        flex: 1;
+		flex: 1;
 	}
 
 	.card {
@@ -37,6 +37,10 @@
 		border: 1px solid var(--accent-orange);
 		border-radius: 0.5em;
 		flex: 1;
+
+		transition:
+			transform 0.2s,
+			box-shadow 0.2s;
 	}
 
 	.card h2 {
@@ -65,5 +69,10 @@
 		border: 1px solid var(--accent-orange);
 		border-radius: 0.5em;
 		white-space: nowrap;
+	}
+
+	.card:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 	}
 </style>
