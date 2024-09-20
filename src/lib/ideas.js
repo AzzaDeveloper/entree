@@ -242,8 +242,67 @@ let ideas = [
         "description": "A grocery delivery service that uses reusable containers and focuses on zero-waste products, helping consumers reduce plastic use while shopping sustainably.",
         "tags": ["Sustainability", "Grocery", "Zero Waste"],
         "users": ["sustainability advocates", "eco-conscious families"]
-    }
-    
+    },
+    {
+        "title": "AI-Powered Content Creation Platform",
+        "description": "A platform that uses artificial intelligence to help marketers and content creators generate high-quality blog posts, social media content, and ad copy in minutes.",
+        "tags": ["AI", "Content Creation", "Marketing"],
+        "users": ["marketers", "content creators"]
+    },
+    {
+        "title": "Eco-Friendly Home Energy Solutions",
+        "description": "A service that provides homeowners with personalized recommendations for solar panels, smart thermostats, and energy-efficient appliances to reduce energy consumption and lower bills.",
+        "tags": ["Energy", "Sustainability", "Smart Home"],
+        "users": ["homeowners", "eco-conscious consumers"]
+    },
+    {
+        "title": "Customized Virtual Fitness Programs",
+        "description": "An online fitness platform offering tailored workout programs and live coaching sessions, allowing users to reach their fitness goals from the comfort of their homes.",
+        "tags": ["Fitness", "Health", "Virtual"],
+        "users": ["fitness enthusiasts", "remote workers"]
+    },
+    {
+        "title": "Blockchain-Based Digital Art Marketplace",
+        "description": "A blockchain-powered platform where artists can mint, sell, and trade digital art as NFTs, giving creators greater control over their work and royalties.",
+        "tags": ["Blockchain", "NFT", "Art"],
+        "users": ["digital artists", "art collectors"]
+    },
+    {
+        "title": "Language Learning Through Immersion",
+        "description": "An immersive language learning app that uses interactive stories, real-time conversations with native speakers, and cultural content to enhance language skills.",
+        "tags": ["Language Learning", "Education", "Immersion"],
+        "users": ["language learners", "travel enthusiasts"]
+    },
+    {
+        "title": "Circular Fashion Resale Marketplace",
+        "description": "A second-hand fashion marketplace that allows users to buy and sell pre-loved clothing, promoting circular fashion and reducing textile waste.",
+        "tags": ["Sustainability", "Fashion", "Resale"],
+        "users": ["fashion lovers", "eco-conscious consumers"]
+    },
+    {
+        "title": "Digital Nomad Co-Living Spaces",
+        "description": "A network of co-living spaces designed specifically for digital nomads, offering work-friendly environments, community activities, and flexible stay options.",
+        "tags": ["Remote Work", "Co-Living", "Community"],
+        "users": ["digital nomads", "remote workers"]
+    },
+    {
+        "title": "Smart Home Gardening System",
+        "description": "An automated indoor gardening system that uses IoT technology to monitor and manage plants' needs, allowing users to grow herbs and vegetables effortlessly at home.",
+        "tags": ["Smart Home", "Gardening", "IoT"],
+        "users": ["urban gardeners", "health-conscious consumers"]
+    },
+    {
+        "title": "On-Demand Skilled Trades Platform",
+        "description": "A platform that connects homeowners and businesses with verified skilled tradespeople for repairs, renovations, and maintenance, with transparent pricing and quick booking.",
+        "tags": ["Home Improvement", "On-Demand", "Skilled Trades"],
+        "users": ["homeowners", "business owners"]
+    },
+    {
+        "title": "AI-Driven Personalized Skincare",
+        "description": "A skincare platform that uses AI to analyze users' skin type and conditions, providing personalized product recommendations and routines based on real-time data.",
+        "tags": ["Skincare", "AI", "Beauty"],
+        "users": ["beauty enthusiasts"]
+    }        
 ]
 
 let functions = { getIdea, getIdeaList };
