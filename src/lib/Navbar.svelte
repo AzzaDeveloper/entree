@@ -45,6 +45,7 @@
 
     .navbar-btn {
         text-decoration: none;
+        text-align: center;
         color: var(--accent-orange);
         font-size: 1.5em;
         font-weight: bold;
