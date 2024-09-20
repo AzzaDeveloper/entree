@@ -669,7 +669,183 @@ const users = [
 					'A project that analyzes financial data to forecast future performance and trends, helping businesses optimize their financial strategies.'
 			}
 		]
+	},
+	{
+		"username": "Liam Anderson",
+		"avatar": "/Liam_Anderson.png",
+		"title": ["Data Scientist", "Machine Learning Engineer"],
+		"age": "32",
+		"about": "Liam Anderson is a data scientist with expertise in machine learning and artificial intelligence. He focuses on building predictive models and developing algorithms for data-driven applications.",
+		"interests": ["Machine Learning", "Deep Learning", "Data Engineering", "Python", "TensorFlow"],
+		"projects": [
+			{
+				"image": "",
+				"title": "Fraud Detection Model",
+				"description": "A machine learning model designed to detect fraudulent transactions in real-time, using supervised learning algorithms."
+			},
+			{
+				"image": "",
+				"title": "Natural Language Processing (NLP) Chatbot",
+				"description": "An AI-driven chatbot developed with NLP techniques to understand and respond to customer queries efficiently."
+			},
+			{
+				"image": "",
+				"title": "Recommendation System",
+				"description": "A recommendation engine that suggests products to users based on their historical behavior and preferences."
+			},
+			{
+				"image": "",
+				"title": "Image Classification Model",
+				"description": "A convolutional neural network (CNN) model created to classify images into different categories with high accuracy."
+			},
+			{
+				"image": "",
+				"title": "Customer Segmentation Using K-Means",
+				"description": "A project that involves segmenting customers into different groups using the K-Means clustering algorithm for targeted marketing."
+			}
+		]
+	},
+	{
+		"username": "Sophia Bennett",
+		"avatar": "/Sophia_Bennett.png",
+		"title": ["Data Engineer", "Cloud Architect"],
+		"age": "29",
+		"about": "Sophia Bennett is a data engineer and cloud architect who specializes in building scalable data pipelines and cloud-based data storage solutions. She ensures that large datasets are efficiently processed and stored for analysis.",
+		"interests": ["Cloud Computing", "AWS", "Data Pipelines", "Big Data", "ETL Processes"],
+		"projects": [
+			{
+				"image": "",
+				"title": "ETL Pipeline for E-commerce",
+				"description": "Designed and implemented an ETL pipeline that extracts, transforms, and loads data from various sources into a data warehouse for analysis."
+			},
+			{
+				"image": "",
+				"title": "Cloud Data Storage System",
+				"description": "Developed a cloud-based data storage system using AWS S3 and Redshift to handle terabytes of data for real-time analytics."
+			},
+			{
+				"image": "",
+				"title": "Real-Time Data Streaming",
+				"description": "Built a data streaming architecture using Kafka and Spark to process real-time data for live dashboards and reporting."
+			},
+			{
+				"image": "",
+				"title": "Data Lakehouse Architecture",
+				"description": "Implemented a data lakehouse architecture that integrates structured and unstructured data for unified data management and analysis."
+			},
+			{
+				"image": "",
+				"title": "Cloud Migration Strategy",
+				"description": "Led a project to migrate on-premise data infrastructure to the cloud, optimizing performance and reducing costs."
+			}
+		]
+	},
+	{
+		"username": "Ethan Martinez",
+		"avatar": "/Ethan_Martinez.png",
+		"title": ["Business Intelligence Analyst", "Power BI Specialist"],
+		"age": "35",
+		"about": "Ethan Martinez is a business intelligence analyst with deep knowledge in Power BI and Excel. He specializes in building insightful reports and dashboards that help businesses monitor their performance and make strategic decisions.",
+		"interests": ["Power BI", "Excel", "Data Visualization", "KPI Reporting", "Data Warehousing"],
+		"projects": [
+			{
+				"image": "",
+				"title": "Sales Performance Dashboard",
+				"description": "Created a Power BI dashboard that tracks sales KPIs, product performance, and sales team effectiveness in real-time."
+			},
+			{
+				"image": "",
+				"title": "Financial Reporting Suite",
+				"description": "Developed a suite of financial reports in Excel, helping companies visualize their financial performance over time."
+			},
+			{
+				"image": "",
+				"title": "Customer Satisfaction Metrics",
+				"description": "Built a reporting system to analyze customer satisfaction surveys and provide actionable insights to improve service quality."
+			},
+			{
+				"image": "",
+				"title": "Inventory Management Report",
+				"description": "Created a Power BI report that visualizes inventory levels, stock turnover, and supply chain efficiency."
+			},
+			{
+				"image": "",
+				"title": "Marketing Campaign Analysis",
+				"description": "Developed a marketing campaign analysis report, tracking the effectiveness of different campaigns and their ROI."
+			}
+		]
+	},
+	{
+		"username": "Ava Collins",
+		"avatar": "/Ava_Collins.png",
+		"title": ["Data Analyst", "Python Specialist"],
+		"age": "28",
+		"about": "Ava Collins is a data analyst with a strong background in Python programming. She enjoys using Python to automate data analysis tasks and create dynamic data-driven applications.",
+		"interests": ["Python", "Data Automation", "Pandas", "Matplotlib", "Data Cleaning"],
+		"projects": [
+			{
+				"image": "",
+				"title": "Automated Data Cleaning Script",
+				"description": "Developed a Python script to automatically clean and preprocess large datasets, saving hours of manual work."
+			},
+			{
+				"image": "",
+				"title": "Data Visualization Toolkit",
+				"description": "Created a Python-based toolkit using Matplotlib and Seaborn to generate insightful visualizations for business reports."
+			},
+			{
+				"image": "",
+				"title": "Web Scraping for Market Research",
+				"description": "Built a Python web scraping tool to collect market research data from various e-commerce platforms."
+			},
+			{
+				"image": "",
+				"title": "Sentiment Analysis on Social Media",
+				"description": "Used Python's NLP libraries to analyze social media data and determine the sentiment of customer opinions about various products."
+			},
+			{
+				"image": "",
+				"title": "Sales Forecasting Model",
+				"description": "Implemented a time series forecasting model in Python to predict future sales based on historical data."
+			}
+		]
+	},
+	{
+		"username": "Olivia Brooks",
+		"avatar": "/Olivia_Brooks.png",
+		"title": ["Data Scientist", "R Specialist"],
+		"age": "30",
+		"about": "Olivia Brooks is a data scientist with a passion for statistical modeling and data visualization in R. She enjoys exploring complex datasets and uncovering insights that drive business strategy.",
+		"interests": ["R Programming", "Statistics", "Data Visualization", "Predictive Analytics", "ggplot2"],
+		"projects": [
+			{
+				"image": "",
+				"title": "Predictive Analytics for Retail",
+				"description": "Developed a predictive analytics model in R to forecast retail sales and optimize inventory levels."
+			},
+			{
+				"image": "",
+				"title": "Customer Segmentation with R",
+				"description": "Used R to segment customers based on purchasing behavior, enabling more targeted marketing strategies."
+			},
+			{
+				"image": "",
+				"title": "ggplot2 Data Visualization Package",
+				"description": "Created a custom ggplot2 package for advanced data visualizations tailored to business presentations."
+			},
+			{
+				"image": "",
+				"title": "A/B Testing Analysis",
+				"description": "Conducted A/B testing analysis in R to help businesses make data-driven decisions based on experiment results."
+			},
+			{
+				"image": "",
+				"title": "Churn Rate Prediction",
+				"description": "Built a predictive model to identify customers at risk of churn using statistical techniques in R."
+			}
+		]
 	}
+	
 ];
 
 const functions = { getUser, getUserList };
